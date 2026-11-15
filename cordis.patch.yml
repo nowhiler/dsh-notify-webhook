@@ -1,0 +1,8 @@
+# DSH host 插件层：把 dsh-notify-webhook 插入 profile 组合。
+# 具体通道配置在 ~/.dsh/dsh-notify.json（改完即时生效，无需重启）。
+- insert:
+    - id: dsh-notify-webhook
+      name: 'dsh-notify-webhook'
+      config:
+        enabled: true
+        configPath: ''

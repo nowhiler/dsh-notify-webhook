@@ -1,0 +1,28 @@
+{
+  "name": "dsh-notify-webhook",
+  "version": "0.1.0",
+  "description": "DSH host plugin: push a notification to DingTalk / WeCom / ServerChan / PushPlus / generic webhook when a session turn ends, waits for approval, or asks the user a question.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nowhiler/dsh-notify-webhook.git"
+  },
+  "homepage": "https://github.com/nowhiler/dsh-notify-webhook#readme",
+  "bugs": {
+    "url": "https://github.com/nowhiler/dsh-notify-webhook/issues"
+  },
+  "author": "nowhiler",
+  "license": "MIT"
+}

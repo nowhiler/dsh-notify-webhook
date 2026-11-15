@@ -1,0 +1,20 @@
+{
+  "enabled": true,
+  "notifyTurnEnd": true,
+  "notifyAborted": false,
+  "notifyApproval": true,
+  "notifyQuestion": true,
+  "snippetChars": 280,
+  "link": "auto",
+  "channels": [
+    {
+      "type": "serverchan",
+      "sendKey": "SCT这里换成你的SendKey"
+    },
+    {
+      "type": "dingtalk",
+      "webhook": "https://oapi.dingtalk.com/robot/send?access_token=这里换成你的access_token",
+      "secret": "SEC这里换成加签密钥（没开加签就删掉这一行）"
+    }
+  ]
+}
