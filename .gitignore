@@ -7,3 +7,5 @@ logs/
 config.json
 *.log
 
+# 本地 registry 凭证
+.npmrc

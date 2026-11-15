@@ -13,6 +13,7 @@ DSH 桌面版 host 插件：会话**回合结束**、**等待你审批**、**等
 ## 仓库
 
 - GitHub: https://github.com/nowhiler/dsh-notify-webhook
+- npm: https://www.npmjs.com/package/dsh-notify-webhook
 - 本包也可用 git 安装（需要能访问 GitHub）：
 
   ```powershell
@@ -20,6 +21,14 @@ DSH 桌面版 host 插件：会话**回合结束**、**等待你审批**、**等
   ```
 
 ## 安装
+
+最快的方式（从 npm 安装，需要能访问 npm registry）：
+
+```powershell
+"<DSH安装目录>\resources\runtime\cli\bin\dsh.cmd" plugin --profile desktop add dsh-notify-webhook
+```
+
+或者用下面任意一种本地方式：
 
 1. 把压缩包解压到任意固定目录（例如 `D:\tools\dsh-notify-webhook`），**之后不要移动/删除该目录**。
 2. 用 DSH 自带的 CLI 安装（把 `<DSH安装目录>` 换成你的 DSH 安装路径，把 `<插件目录>` 换成上一步的目录）：
