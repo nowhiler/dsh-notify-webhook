@@ -10,6 +10,15 @@ DSH 桌面版 host 插件：会话**回合结束**、**等待你审批**、**等
 - Windows / macOS / Linux 任意平台（本包为纯 JS，无 native 依赖）
 - 不需要单独安装 Node：用 DSH 自带的运行时即可
 
+## 仓库
+
+- GitHub: https://github.com/nowhiler/dsh-notify-webhook
+- 本包也可用 git 安装（需要能访问 GitHub）：
+
+  ```powershell
+  "<DSH安装目录>\resources\runtime\cli\bin\dsh.cmd" plugin --profile desktop add git+https://github.com/nowhiler/dsh-notify-webhook
+  ```
+
 ## 安装
 
 1. 把压缩包解压到任意固定目录（例如 `D:\tools\dsh-notify-webhook`），**之后不要移动/删除该目录**。
