@@ -1,5 +1,10 @@
 # dsh-notify-webhook
 
+[![npm version](https://img.shields.io/npm/v/dsh-notify-webhook.svg)](https://www.npmjs.com/package/dsh-notify-webhook)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/nowhiler/dsh-notify-webhook/blob/main/LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/nowhiler/dsh-notify-webhook?label=release)](https://github.com/nowhiler/dsh-notify-webhook/releases)
+
+
 DSH 桌面版 host 插件：会话**回合结束**、**等待你审批**、**等你回答问题**时，把提醒推送到手机（钉钉 / 企业微信 / Server酱微信 / PushPlus / Bark / 通用 webhook）。
 
 > 权限说明：插件运行在 DSH 宿主进程内，能读会话事件并按配置发 HTTP 请求；除此之外不联网、不上报数据。请只使用你信任来源的插件代码。
