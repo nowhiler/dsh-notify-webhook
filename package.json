@@ -1,7 +1,7 @@
 {
   "name": "dsh-notify-webhook",
   "version": "0.1.0",
-  "description": "DSH host plugin: push a notification to DingTalk / WeCom / ServerChan / PushPlus / generic webhook when a session turn ends, waits for approval, or asks the user a question.",
+  "description": "DSH host plugin: push a notification to DingTalk / WeCom / ServerChan / PushPlus / MeoW / generic webhook when a session turn ends, waits for approval, or asks the user a question.",
   "type": "module",
   "main": "./index.js",
   "exports": {
