@@ -5,7 +5,7 @@
 [![GitHub release](https://img.shields.io/github/v/release/nowhiler/dsh-notify-webhook?label=release)](https://github.com/nowhiler/dsh-notify-webhook/releases)
 
 
-DSH 桌面版 host 插件：会话**回合结束**、**等待你审批**、**等你回答问题**时，把提醒推送到手机（钉钉 / 企业微信 / Server酱微信 / PushPlus / Bark / 通用 webhook）。
+DSH 桌面版 host 插件：会话**回合结束**、**等待你审批**、**等你回答问题**时，把提醒推送到手机（钉钉 / 企业微信 / Server酱微信 / PushPlus / MeoW / Bark / 通用 webhook）。
 
 > 权限说明：插件运行在 DSH 宿主进程内，能读会话事件并按配置发 HTTP 请求；除此之外不联网、不上报数据。请只使用你信任来源的插件代码。
 
@@ -69,7 +69,8 @@ DSH 桌面版 host 插件：会话**回合结束**、**等待你审批**、**等
   "snippetChars": 280,
   "link": "auto",
   "channels": [
-    { "type": "serverchan", "sendKey": "SCTxxxx" }
+    { "type": "serverchan", "sendKey": "SCTxxxx" },
+    { "type": "meow", "nickname": "JohnDoe", "category": "DSH", "msgType": "text" }
   ]
 }
 ```
@@ -94,6 +95,7 @@ DSH 桌面版 host 插件：会话**回合结束**、**等待你审批**、**等
 | `wecom` | `webhook` | 企业微信群机器人（需内部群） |
 | `pushplus` | `token` | PushPlus（需实名） |
 | `bark` | `key`，可选 `server` | iOS |
+| `meow` | `nickname`，可选 `server`、`category`、`msgType`、`htmlHeight`、`url`、`imgUrl` | MeoW 消息推送；`msgType` 支持 `text`（默认）或 `html` |
 | `generic` | `url`，可选 `headers` | 通用 webhook，POST `{title,text,plain,meta}` |
 | `mock` | 可选 `file` | 写本地文件，测试用 |
 

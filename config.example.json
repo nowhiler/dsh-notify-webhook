@@ -12,6 +12,12 @@
       "sendKey": "SCT这里换成你的SendKey"
     },
     {
+      "type": "meow",
+      "nickname": "这里换成你的MeoW昵称",
+      "category": "DSH",
+      "msgType": "text"
+    },
+    {
       "type": "dingtalk",
       "webhook": "https://oapi.dingtalk.com/robot/send?access_token=这里换成你的access_token",
       "secret": "SEC这里换成加签密钥（没开加签就删掉这一行）"
